@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  /* color: #000; */
+}
+
+.top-header {
+  background-color: #800040;
+  color: #fff;
+}
+.top-header a {
+  color: #fff;
+}
+
+/* .................................... */
+.contact-bar {
+  background-color: #fff;
+  padding: 10px 20px;
+  /* border-top: 4px solid #800040; */
+}
+.logo {
+  max-height: 50px;
+}
+.contact-info {
+  font-size: 14px;
+}
+.email,
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.email i,
+.phone i {
+  color: #800040; /* Purple color for icons */
+  font-size: 20px;
+}
+
+/* -------------------------nav bar--------------- */
+
+.navbar {
+  background-color: #800040;
+  padding: 20px;
+}
+
+.nav li > a {
+  color: #333333;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px 8px;
+  -moz-border-radius: 100px 0px;
+  -webkit-border-radius: 100px 0px;
+  border-radius: 100px 0px;
+  background: #ffffff;
+  transition: all 0.8s ease-in-out;
+}
+
+.nav > li > a {
+  padding: 5px 28px;
+}
+
+.nav > li > a:hover,
+.nav > li > a.active {
+  background-color: #800040;
+  color: #fff;
+}
+
+/* media query navbar  */
+@media only screen and (max-width: 992px) {
+  .navbar {
+    background-color: #800040;
+    padding: 15px;
+  }
+  .nav li {
+    margin-top: 20px;
+    padding: 10px;
+    /* background-color: gray; */
+    border-radius: 10px;
+  }
+
+  .nav li > a {
+    -moz-border-radius: 0px 0px;
+    -webkit-border-radius: 0px 0px;
+    border-radius: 0px 0px;
+    background: none;
+
+    transition: none;
+    color: #fff;
+  }
+  .nav > li > a {
+    background-color: none;
+  }
+
+  .nav > li > a:hover,
+  .nav > li > a.active {
+    background-color: #800040;
+    /* color: #333333; */
+  }
+  /* .nav > li > a.active {
+    color: #fff;
+  } */
+}
+/* -------------------------nav bar  End--------------- */
+
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.our-comp .item {
+  line-height: 40px;
+}
+
+.our-comp .item i {
+  color: #800040;
+  margin-right: 10px;
+}
+
+/* footer  */
+.footer {
+  background-color: #800040;
+  margin-top: 60px;
+}
+
+.footer a {
+  color: #fff;
+  padding: 0 10px;
+}
+
+/* scroll icon  bar css start */
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+  width: 50px;
+  height: 50px;
+  background-color: #800040;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#scrollToTopBtn:hover {
+  background-color: #36031d;
+  transform: scale(1.1);
+}
+
+#scrollToTopBtn svg {
+  width: 24px;
+  height: 24px;
+}
+/* scroll icon  bar css end */
+
+/* navtab css  */
+/* Default tab styles */
+.nav-link {
+  color: #000;
+  /* transition: background-color 0.3s ease, color 0.3s ease; */
+}
+
+/* Custom active styles */
+.nav-link.active {
+  background-color: #830c4f !important;
+  color: white !important;
+}
+li {
+  color: #fff;
+}
+
+#about-project .ourimages2 {
+  height: 315px;
+}
+
+
